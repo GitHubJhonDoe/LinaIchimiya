@@ -1,0 +1,27 @@
+.f-index{
+	height: calc(100vh - 88px - 34px);
+
+	@media only screen and (min-width:1440px){
+		height: calc(100vh - 104px - 42px);
+	}
+}
+
+.l-keyvisual{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	z-index: -1;
+
+	@media only screen and (min-width:1440px){
+		width: 1040px;
+	}
+}
+
+.o-keyvisual{
+	@media only screen and (min-width:1440px){
+		width: 64%;
+		margin: 0 auto;
+	}
+}
